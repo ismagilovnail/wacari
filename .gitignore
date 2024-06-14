@@ -1,0 +1,7 @@
+dbdata
+docker
+docker-compose.yml
+Makefile
+storage
+node_modules
+vendor

@@ -1,0 +1,11 @@
+@function _size($n) {
+    $sum: calc($n / 16);
+
+    @return $sum * 1rem;
+}
+
+@function _media($n) {
+    $sum: calc($n / 16);
+
+    @return $sum * 1em;
+}

@@ -1,0 +1,38 @@
+@import "../../../css/function.scss";
+
+.welcome {
+    padding: _size(37) _size(12) _size(37) _size(20);
+    background: url('./welcome.jpg') center center/cover no-repeat;
+    border: 2px solid var(--color-silver);
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: _size(20);
+    h1 {
+        font-weight: 600;
+        font-size: _size(30);
+    }
+    p {
+        font-weight: 400;
+        font-size: _size(20);
+    }
+
+    a {
+        font-weight: 400;
+        color: #fff;
+        text-decoration: none;
+        border: 1px solid rgb(188, 188, 188);
+        background-color: rgb(38, 138, 187);
+        padding: _size(10) _size(20);
+        margin-left: auto;
+        display: block;
+        max-width: _size(200);
+        text-align: center;
+    }
+
+    div {
+        display: flex;
+        flex-direction: column;
+        gap: _size(10);
+    }
+}

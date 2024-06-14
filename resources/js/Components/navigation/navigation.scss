@@ -1,0 +1,51 @@
+@import "../../../css/function.scss";
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    gap: _size(30);
+    padding: _size(31) _size(10) _size(10) _size(10);
+    user-select: none;
+    transition: all 0.4s ease-in-out;
+
+    &-btn {
+        position: absolute;
+        top: _size(10);
+        right: 0;
+    }
+
+    li {
+        width: 100%;
+        cursor: pointer;
+        position: relative;
+        a {
+            color: rgb(0, 0, 0);
+            font-size: _size(30);
+            font-weight: 400;
+            text-decoration: none;
+            transition: all 0.4s ease;
+
+            &:hover {
+                color: rgb(47, 90, 155);
+            }
+        }
+
+        ul {
+            display: none;
+            flex-direction: column;
+            gap: _size(20);
+            padding-top: _size(20);
+            padding-left: _size(20);
+            user-select: none;
+        }
+    }
+
+    .open {
+        display: flex;
+        transition: all 0.4s ease;
+    }
+}
+
+.icon-rotate {
+    transform: rotate(-180deg);
+}

@@ -1,0 +1,8 @@
+@import '../../../css/function.scss';
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: _size(30);
+    padding-bottom: _size(53);
+}

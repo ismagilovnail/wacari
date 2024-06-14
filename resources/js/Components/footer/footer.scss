@@ -1,0 +1,29 @@
+@import "../../../css/function.scss";
+
+.footer {
+    display: flex;
+    align-items: center;
+    background-color: #101010;
+    padding: _size(33) _size(33) _size(30) _size(66);
+    nav {
+        margin:  0 auto;
+        ul {
+            display: flex;
+            align-items: center;
+            gap: _size(30);
+            li {
+                a {
+                    color: #fff;
+                    font-weight: 400;
+                    font-size: _size(20);
+                    text-decoration: none;
+                    transition: all 0.4s ease;
+                    &:hover {
+                        text-decoration: underline;
+                        color: rgb(47, 90, 155);
+                    }
+                }
+            }
+        }
+    }
+}

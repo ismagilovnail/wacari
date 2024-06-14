@@ -1,0 +1,15 @@
+.auth {
+    &__link {
+        color: var(--color-link);
+        text-decoration: none;
+        &:hover {
+            color: #0056b3;
+            text-decoration: underline;
+        }
+    }
+    &__form {
+        display: flex;
+        gap: 1rem;
+        flex-direction: column;
+    }
+}

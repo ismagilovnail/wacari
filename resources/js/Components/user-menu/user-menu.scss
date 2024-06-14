@@ -1,0 +1,70 @@
+@import "../../../css/function.scss";
+
+.user-menu {
+    ul {
+        display: flex;
+        align-items: center;
+        gap: _size(50);
+
+        li {
+            a {
+                font-weight: 400;
+                font-size: _size(20);
+                color: rgb(0, 0, 0);
+                text-decoration: none;
+                transition: all 0.4s ease;
+
+                &:hover {
+                    color: var(--color-link);
+                    text-decoration: underline;
+                }
+            }
+
+            img {
+                max-width: _size(85);
+                object-fit: cover;
+                border-radius: 100%;
+                height: _size(85);
+            }
+
+        }
+    }
+
+    &__nav {
+        display: flex;
+        flex-direction: column;
+        gap: _size(30);
+        margin-top: _size(60);
+
+        li {
+            a {
+                font-weight: 400;
+                font-size: _size(20);
+                color: rgb(0, 0, 0);
+                text-decoration: none;
+                transition: all 0.4s ease;
+
+                &:hover {
+                    color: var(--color-link);
+                    text-decoration: underline;
+                }
+            }
+
+            form {
+                button {
+                    font-weight: 400;
+                    font-size: _size(20);
+                    color: rgb(0, 0, 0);
+                    text-decoration: none;
+                    transition: all 0.4s ease;
+                    padding: 0;
+
+                    &:hover {
+                        color: var(--color-link);
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+}

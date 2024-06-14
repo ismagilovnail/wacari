@@ -1,0 +1,13 @@
+@import "../../../../css/function.scss";
+
+.admin-header {
+    padding: _size(20);
+    background-color: #41B3A3;
+    a {
+        color: #fff;
+        transition: all 0.4s ease;
+        &:hover {
+            color: #2f2fa2;
+        }
+    }
+}

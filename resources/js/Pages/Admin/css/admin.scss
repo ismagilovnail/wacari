@@ -1,0 +1,16 @@
+@import "../../../../css/function.scss";
+
+.sweet {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    input, textarea {
+        width: auto;
+        padding: 10px;
+        border: 10px;
+        resize: none;
+    }
+    textarea {
+    height: 300px;
+    }
+}
